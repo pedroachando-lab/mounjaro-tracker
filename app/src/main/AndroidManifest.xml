@@ -8,15 +8,12 @@
     <application
         android:name=".MounjaroApp"
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:label="@string/app_name"
+        android:label="Mounjaro Tracker"
         android:supportsRtl="true"
         android:theme="@style/Theme.MounjaroTracker">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="Mounjaro Tracker"
             android:theme="@style/Theme.MounjaroTracker">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
